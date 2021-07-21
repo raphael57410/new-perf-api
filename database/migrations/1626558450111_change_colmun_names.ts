@@ -4,12 +4,12 @@ export default class Weight extends BaseSchema {
   protected tableName = 'Weight'
 
   public async up () {
-    this.schema.table(this.tableName, (table) => {
+    this.schema.table(this.tableName, () => {
     })
   }
 
   public async down () {
-    this.schema.table(this.tableName, (table) => {
+    this.schema.table(this.tableName, () => {
     })
   }
 }
